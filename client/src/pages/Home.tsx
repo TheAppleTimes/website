@@ -27,7 +27,7 @@ export default function Home() {
               <SearchBar
                 value={searchQuery}
                 onChange={setSearchQuery}
-                placeholder="Search articles by title, description, tags, or author..."
+                placeholder="Search articles by title or description."
               />
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Home() {
             <p className="text-xl text-muted-foreground">
               {searchQuery
                 ? `No articles found matching "${searchQuery}"`
-                : "No articles available yet. Start writing!"}
+                : "No articles found, is your internet working?"}
             </p>
           </div>
         ) : (
