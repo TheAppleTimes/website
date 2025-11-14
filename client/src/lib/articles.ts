@@ -26,8 +26,8 @@ export const articles: Article[] = [
     component: GettingStarted,
   },
   {
-    metadata: exampleMetadata,
-    component: ExampleArticle,
+      metadata: iPhonePocketMetadata,
+      component: iPhonePocket,
   },
 ];
 
