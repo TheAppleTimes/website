@@ -2,7 +2,7 @@ import type { ArticleMetadata } from "@/types/article";
 
 export const metadata: ArticleMetadata = {
   id: "iPhone-Pocket",
-  title: "Apple releases new 'iPhone Pocket',
+  title: "Apple releases new 'iPhone Pocket'",
   description: "Apple has partnered with 'ISSEY MIYAKE' to make a pocket for your iPhone.",
   date: "2025-11-11",
   author: "Justaperson",
