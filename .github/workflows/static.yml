@@ -40,7 +40,7 @@ jobs:
         env:
           VITE_APP_TITLE: 'The Apple Times'
           VITE_APP_LOGO: '/website/logo.svg'
-          VITE_BASE_PATH: '/website/'
+          VITE_BASE_PATH: '/'
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
