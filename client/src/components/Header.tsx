@@ -41,6 +41,13 @@ export function Header() {
               </Button>
             </a>
           </Link>
+          <Link href="/contact-us">
+            <a>
+              <Button variant="ghost" title="Contact Us">
+                Contact Us
+              </Button>
+            </a>
+          </Link>
           
           {siteConfig.features.darkMode && (
             <Button
